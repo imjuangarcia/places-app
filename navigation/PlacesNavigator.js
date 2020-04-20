@@ -15,7 +15,7 @@ const PlacesNavigator = createStackNavigator({
   NewPlace: NewPlaceScreen,
   Map: MapScreen,
 }, {
-  defaultNavigationsOptions: {
+  defaultNavigationOptions: {
     headerStyle: {
       backgroundColor: Platform.OS === 'android' ? Colors.primary : '',
     },
